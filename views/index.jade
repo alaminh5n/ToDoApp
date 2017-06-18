@@ -1,6 +1,21 @@
 extends layout
 
 block content
-  h2 Hello
-  h1= title
-  p We are trolled by Ourself
+    center
+      #d1
+        h2 ToDo App
+        form
+          table
+            tr
+              td User ID:
+              td
+                input(type='text')
+            tr
+              td Password
+              td
+                input(type='password')
+            tr
+              td
+                input(type='button', value='Login')
+              td
+                input(type='button', value='Signup')
